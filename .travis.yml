@@ -81,5 +81,5 @@ deploy:
     secure: "SsAnTtkjpHq2OQCnfZskdUY2R3lIRgl4iuVbKtMsGBS7YYZvpv8l+TdCcPXGaOXDRymJnWiNZs2/wJU1haVhwnDkp46Suo3m9OKQ40K4YQ6rpXBM5/f2ahdSKhNxR7lbVaAZnJWXO3PgGTM73F+d619oj5GGF/1SbCQ1thSRMQs="
   file: esptool-$TRAVIS_TAG-$TARGET_OS.*
   on:
-    repo: igrr/esptool-ck
+    repo: volca/esptool-ck
     tags: true

@@ -61,7 +61,7 @@ typedef struct
 
 } bootloader_packet;
 
-#define BLOCKSIZE_FLASH         0x0400
+#define BLOCKSIZE_FLASH         0x0100
 #define BLOCKSIZE_RAM           0x1800
 
 int espcomm_set_port(char *port);

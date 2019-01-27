@@ -69,7 +69,7 @@ script:
 notifications:
   email:
     recipients:
-    - igrokhotkov@gmail.com
+    - volcas@gmail.com
     on_success: change
     on_failure: change
 

@@ -78,7 +78,7 @@ deploy:
   skip_cleanup: true
   file_glob: true
   api_key:
-    secure: ${GH_TOKEN}
+    secure: Kpx53rzNK/teMgjL12UVHTLcrI7G3PXN/EkV5Z8eSvmjhnsy5ww0pZvnOYh4VmSqZ5WXqOH0M1ctTkEjOFqSeCx0JJ7B5tfUQdPS8+Tbj8aHaYCXTow9qvDXA4uIEuoFX6NleQgsBSpEG8FIQbxGksFh1E2XjjyyqlhN76esaXwxeRRd8vAgmUXPuz/NnFqbvXY50GRaWW2EL41g2vHwZArM9jWxSNxAIP2/sjP1hdbuEAwJxOHr0EBEtca8C09E/5AN7553W8tkm3ZxAhkC7mx0GODI8RFYy4AI5RZ5pTq3oaQh1xEbEXqz9jBfGVGNWImMIKL2kGCysaHvru1BGehmMwiDWY17rCqdwnYmokbkx60z55rgIened4c5x9SxhtnV6lmSGN7YQ1BUkMIkaCouy/h9HoRO81LXrMbtsUTgU5KLqzUaZQ1DP/Au8Gi5TvIBtPrEWoMhi4Roaae0CqQJvDoMI9bLFppaPT5I+uXPYgmcceTRQ7eG3FNEzt4U5XpcGBsl3wMqjKworRepPYjhc5ldI+x6Ing73RZzrRWQaEUFXenoG3brcy6ghjrkRNHHoaM9iMaw0Z68zre5n6XkHv2pkmAoPoY7eQ7jqvTHBl8gJA1M4q4DdA9xp5yu4Mvy1DYVHpuvX6MX142OEMKjKHDrCsoquxzak2EB/Zw=
   file: esptool-$TRAVIS_TAG-$TARGET_OS.*
   on:
     repo: volca/esptool-ck
